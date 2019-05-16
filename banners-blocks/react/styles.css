@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield');
+@font-face{
+  font-family: 'Magenta';
+  src: url('./fonts/Magenta.ttf')format('truetype');
+} 
+.container {
+  min-height: 0.625rem;
+  min-width: 0.625rem;
+}
+
+.containerImg {
+  max-height: inherit;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+}
+
+.arrowsContainer {
+  box-sizing: content-box;
+}
+
+.arrowLeft {}
+.arrowRight {}
+
+.titulo {
+  font-family: 'Magenta','Mrs Saint Delafield', cursive;
+  font-size: 45px;
+}
+.hr hr{
+  width: 100%;
+}
+.hr {
+  display: flex;
+  align-items: center;
+}
+.boton {
+  position: relative;
+  bottom: 35px;
+  margin-right: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 14px 30px;
+  background-color: #D6CEB3;
+  color: #fff;
+  border: 2px solid #D6CEB3;
+}
+.boton:hover {
+  cursor: pointer;
+}
+.subtitulo {
+  font-size: 16px;
+  font-weight: 545;
+  color: inherit;
+  color: black;
+  background-color: #E0B59D;
+  background-image: linear-gradient(to right, #E0B59D, #F3E3DA, #E0B59D );
+}
